@@ -21,6 +21,9 @@ h1 {
 .menu {
   -webkit-filter: url("#shadowed-goo");
           filter: url("#shadowed-goo");
+		  
+  position: fixed;
+		  
 }
 
 .menu-item, .menu-open-button {
@@ -29,11 +32,11 @@ h1 {
   width: 40px;
   height: 40px;
   margin-left: -40px;
-  position: absolute;
+  position: fixed;
   top: 20px;
   color: white;
   text-align: center;
-  line-height: 80px;
+  line-height:  30px;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform ease-out 200ms;
@@ -51,7 +54,7 @@ h1 {
   height: 3px;
   background: white;
   display: block;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   margin-left: -12.5px;
@@ -91,7 +94,7 @@ h1 {
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   left: 50%;
   margin-left: -190px;
   padding-top: 20px;
