@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.plaguelabs.plaguemoncompanion" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Plaguemon Companion</name>
+    <description>
+        A companion for your favourite gb game!
+    </description>
+    <author email="acavallaro.ge@gmail.com" href="https://shop.plaguelabs.com/">
+        Plaguelabs
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon platform="android" qualifier="ldpi" src="./icon/ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="./icon/mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="./icon/hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="./icon/xhdpi.png" />
+    <splash src="splash.png" />
+    <splash platform="android" qualifier="ldpi" src="splash.png" />
+    <splash platform="android" qualifier="mdpi" src="splash.png" />
+    <splash platform="android" qualifier="hdpi" src="splash.png" />
+    <splash platform="android" qualifier="xhdpi" src="splash.png" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="StatusBarBackgroundColor" value="#0000FF" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+</widget>

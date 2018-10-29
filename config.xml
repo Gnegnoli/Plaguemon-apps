@@ -9,19 +9,30 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+	
+	<plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
+	<plugin name="nodejs-cordova-plugin" spec="2.0.0" />
+	<plugin name="nodejs-mobile-cordova" spec="0.2.1" />
+	<plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
+	<plugin name="cordova-plugin-file" spec="~6.0.1" />
+	
+	
 	<preference name="StatusBarOverlaysWebView" value="true" />
-	<preference name="StatusBarBackgroundColor" value="#0000FF" />
+	<preference name="StatusBarBackgroundColor" value="#6e0c1a" />
 	<preference name="StatusBarStyle" value="lightcontent" />
 	
 	
-	<icon src="ldpi.png" platform="android" qualifier="ldpi" />
-	<icon src="mdpi.png" platform="android" qualifier="mdpi" />
-	<icon src="hdpi.png" platform="android" qualifier="hdpi" />
-	<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+	<icon src="./icon/ldpi.png" platform="android" qualifier="ldpi" />
+	<icon src="./icon/mdpi.png" platform="android" qualifier="mdpi" />
+	<icon src="./icon/hdpi.png" platform="android" qualifier="hdpi" />
+	<icon src="./icon/xhdpi.png" platform="android" qualifier="xhdpi" />
+	
 	<splash src="splash.png" />
 	<splash src="splash.png" platform="android" qualifier="ldpi" />
-<splash src="splash.png" platform="android" qualifier="mdpi" />
-<splash src="splash.png" platform="android" qualifier="hdpi" />
-<splash src="splash.png" platform="android" qualifier="xhdpi" />
+	<splash src="splash.png" platform="android" qualifier="mdpi" />
+	<splash src="splash.png" platform="android" qualifier="hdpi" />
+	<splash src="splash.png" platform="android" qualifier="xhdpi" />
 
 </widget>
+
